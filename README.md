@@ -1,0 +1,2 @@
+# SolarEnergy
+Predicts solar energy
