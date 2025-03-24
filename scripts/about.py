@@ -142,6 +142,6 @@ def show_about():
     st.markdown(
         """
         ---
-        *© Developed by Yuvraj Gill for Design 2025. All rights reserved.*
+        *© Developed by PEIEC Design Group for ENGN-3720 2025. All rights reserved.*
         """
     )  
