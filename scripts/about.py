@@ -89,4 +89,4 @@ def show_about():
     except Exception as e:
         st.error(f"Failed to load data from Google Sheets. Error: {e}")
 
-    st.markdown("---\n*© Developed by PEIEC Design Group for Design 2025. All rights reserved.*")
+    st.markdown("---\n*© Developed by PEIEC for Design 2025. All rights reserved.*")
