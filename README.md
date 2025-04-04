@@ -53,13 +53,10 @@ SolarEnergy_Prediction/
 │   ├── app.py          # Main application 
 │   ├── about.py        # About page
 │   ├── cloud.py        # NOAA Cloud script
-│   ├── csv_email.py    # Email script
-│   ├── metar.py        # METAR script
+│   ├── location.py     # Site-Specific power
 │   ├── model.py        # Model script
 │   ├── prediction.py   # Prediction script
-│   ├── solar.py        # Solar script
-│   ├── taf.py          # TAR script
-│   ├── weather.py      # Weather script
+│   ├── pre_engine.py   # Prediction engine
 │── docs/               # Documentation files
 │   ├── README.md       # Documentation for the project
 │── requirements.txt    # Dependencies
@@ -81,25 +78,14 @@ python-dotenv==1.0.1
 ```
 
 ## Format for API Keys
-Please replace `YOUR_API_KEY`, `Senders Email Address`, and `Recivers Email Address` before running the program. 
+Please replace `YOUR_API_KEY` before running the program. 
 ```
-# Weather API Configuration
-BASE_URL = "https://avwx.rest/api/metar"
-LOCATION = "CYYG"  # ICAO code for Charlottetown, PEI
-TOKEN = "YOUR_API_KEY"
-
 # SpotWX
-API_KEY = "YOUR_API_KEY"
+SpotWX = "YOUR_API_KEY"
 
-# TAF API Configuration
-KEY = 'YOUR_API_KEY'
-LOC = "CYYG"  # ICAO code for Charlottetown, PEI
-TAF_URL = 'https://api.checkwx.com/taf'
-
-# Email
-PSW = "YOUR_API_KEY"
-EMAIL_FROM = "Senders Email Address"
-EMAIL_TO = "Recivers Email Address"
+# Weather
+API_KEY = 'YOUR_API_KEY'
+BASE_URL = 'https://api.oikolab.com/weather'
 ```
 
 ## Website link
@@ -107,6 +93,11 @@ Paste the bottom link on browser to use the program.
 ```
 https://solar-energy.streamlit.app
 ```
+## Past Predictions
+Paste the bottom link on browser to use see the past solar predictions.
+'''
+https://docs.google.com/spreadsheets/d/1cKWiYx03RO6zrKr-x0oCjHWIUrR_8nGGRRx6xv_oULA/edit?gid=6909974#gid=6909974
+'''
 
 ## Contributing
 
