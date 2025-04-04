@@ -96,7 +96,7 @@ https://solar-energy.streamlit.app
 ## Past Predictions
 Paste the bottom link on browser to use see the past solar predictions.
 ```
-[https://solar-energy.streamlit.app](https://docs.google.com/spreadsheets/d/1cKWiYx03RO6zrKr-x0oCjHWIUrR_8nGGRRx6xv_oULA/edit?gid=6909974#gid=6909974)
+https://docs.google.com/spreadsheets/d/1cKWiYx03RO6zrKr-x0oCjHWIUrR_8nGGRRx6xv_oULA/edit?gid=6909974#gid=6909974
 ```
 ## Contributing
 
