@@ -57,6 +57,8 @@ SolarEnergy_Prediction/
 │   ├── model.py        # Model script
 │   ├── prediction.py   # Prediction script
 │   ├── pre_engine.py   # Prediction engine
+│── models/             # Trained ML models
+│   ├── model.py        # XG-Boost model
 │── docs/               # Documentation files
 │   ├── README.md       # Documentation for the project
 │── requirements.txt    # Dependencies
