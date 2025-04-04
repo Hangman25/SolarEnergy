@@ -1,10 +1,10 @@
 # Solar Energy Prediction
 
-A solar energy prediction model that uses real-time METAR and forecased TAF-weather data from Charlotetown Airport to estimate the hourly solar power output for Slemon Park, Summerside, PE. It integrates weather station data from Environment Canada and advanced machine learning model to provide 4-Hr solar power prediction.
+A solar energy prediction model that uses real-time and forecased weather data from to estimate the hourly solar power output for Slemon Park, Summerside, PE. It integrates weather station data from Environment Canada and advanced machine learning model to provide 4-Hr solar power prediction.
 
 
 ## Key Features:
-- **Real-time Weather Data**: Fetches METAR and TAF data to incorporate dynamic environmental conditions.
+- **Real-time Weather Data**: Fetches weather data to incorporate dynamic environmental conditions.
 - **Machine Learning Predictions**: Uses an optimized XGBoost model for accurate solar power forecasts.
 - **Cloud Coverage Integration**: Accounts for low, mid, and high-level clouds affecting solar radiation.
 - **Solar Position Calculations**: Computes solar elevation and azimuth angles for better prediction accuracy.
